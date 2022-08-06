@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- depends on ros-<ros distro>-joint-state-publisher-gui, install with command: sudo apt install ros-<ros distro>-joint-state-publisher-gui -->
+  <!-- urdf and robot state publisher -->
+  <arg name="urdf_file" default="$(find xacro)/xacro --inorder '$(find ar3_description)/urdf/ar3.urdf.xacro'"/>
+  <param name="robot_description" command="$(arg urdf_file)"/>
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+    <param name="publish_frequency" type="double" value="50.0"/>
+    <param name="tf_prefix" value=""/>
+  </node>
+  <!-- for continuous wheel joints -->
+  <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui"/>
+  
+  <!-- rviz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ar3_description)/launch/rviz_config.rviz"/>
+</launch>
+
+
