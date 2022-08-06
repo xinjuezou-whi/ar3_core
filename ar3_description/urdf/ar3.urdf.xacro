@@ -5,11 +5,11 @@
 <!-- =================================================================================== -->
 <robot name="ar3">
   <link name="base_link">
-    <inertial>
+    <!--<inertial>
       <origin rpy="0 0 0" xyz="-4.6941E-06 0.054174 0.038824"/>
       <mass value="0.7102"/>
       <inertia ixx="0.0039943" ixy="3.697E-07" ixz="-5.7364E-08" iyy="0.0014946" iyz="-0.00036051" izz="0.0042554"/>
-    </inertial>
+    </inertial>-->
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
