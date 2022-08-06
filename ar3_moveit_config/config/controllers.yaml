@@ -1,5 +1,5 @@
 controller_list:
-    - name: "/ar3/controllers/position"
+    - name: "ar2_arm/controllers/position" #"/ar3/controllers/position"
       action_ns: follow_joint_trajectory
       type: FollowJointTrajectory
       default: true
