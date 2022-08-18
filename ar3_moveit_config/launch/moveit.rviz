@@ -191,7 +191,7 @@ Visualization Manager:
         Show Robot Collision: false
         Show Robot Visual: true
       Value: true
-      Velocity_Scaling_Factor: 1
+      Velocity_Scaling_Factor: 0.8
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -223,10 +223,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.0697975605726242
+      Pitch: 0.03479735553264618
       Target Frame: world
       Value: XYOrbit (rviz)
-      Yaw: 4.894981861114502
+      Yaw: 5.414981842041016
     Saved: ~
 Window Geometry:
   Displays:
