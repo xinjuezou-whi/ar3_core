@@ -7,6 +7,7 @@
 
   <!-- By default, we are not in debug mode -->
   <arg name="debug" default="false" />
+  <arg name="pipeline" default="ompl" />
 
   <!-- By default, don't load robot description -->
   <arg name="load_robot_description" default="false"/>
@@ -22,6 +23,7 @@
     <arg name="fake_execution" value="false"/>
     <arg name="info" value="true"/>
     <arg name="debug" value="$(arg debug)"/>
+    <arg name="pipeline" value="$(arg pipeline)"/>
   </include>
 
   <!-- Run Rviz and load the default config to see the state of the move_group node -->
