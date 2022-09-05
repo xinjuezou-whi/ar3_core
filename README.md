@@ -1,3 +1,8 @@
+# Adaption
+Revisements were made to adapt the ar2_hardware_interface, meanwhile fix issues like fake controller in the chain of demo.launch
+
+Belowing contents are the original of ar3_core
+
 # AR3 Core Software
 This repository provides the software for control of the AR3 arm with ros_control and MoveIt. I hope to provide fellow robotic arm enthusiasts with a starting point to explore using ROS for controlling the arm. The baseline implementation is designed to accomodate the original hardware and firmware, including the message structures for communication. Moving forward, I will do my best to continue to keep it accessible. I plan to explore some interesting concepts that I have in mind for on-arm vision, grippers and human-robot interaction and I will share my projects here if possible.
 
