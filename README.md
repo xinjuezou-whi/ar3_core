@@ -1,5 +1,5 @@
 # Adaption
-Revisements were made to adapt the ar2_hardware_interface, meanwhile fix issues like fake controller in the chain of demo.launch
+Revisements were made to adapt the [ar2_arm_interface](https://github.com/xinjuezou-whi/ar2_arm_interface), meanwhile fix issues like fake controller in the chain of demo.launch
 
 Belowing contents are the original of ar3_core
 
