@@ -23,6 +23,6 @@
   <!-- <param name="capabilities" value="" /> -->
 
   <rosparam command="load" file="$(find ar3_moveit_config)/config/ompl_planning.yaml"/>
-  <rosparam command="load" file="$(find ar3_moveit_config)/config/chomp_planning.yaml"/>
+  <rosparam command="load" file="$(find whi_moveit_config)/config/chomp_planning.yaml"/>
 
 </launch>
