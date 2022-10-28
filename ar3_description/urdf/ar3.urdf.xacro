@@ -200,5 +200,12 @@
     <axis xyz="0 0 1"/>
     <limit lower="${-148.0 / 180.0 * pi}" upper="${148.0 / 180.0 * pi}" effort="0" velocity="0"/>
   </joint>
+  <!-- end-effector frame-->
+  <link name="link_7"/>
+  <joint name="joint_7" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <parent link="link_6"/>
+    <child link="link_7"/>
+  </joint>
 </robot>
 
