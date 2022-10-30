@@ -13,7 +13,7 @@ joint_limits: # degrees
     min_position: -2.96706 # -170.0
     max_position: 2.96706 # 170.0
     has_velocity_limits: true
-    max_velocity: 1.57 # rad/s
+    max_velocity: 2.36 # rad/s
     has_acceleration_limits: true
     max_acceleration: 1.57 # rad/s2
   joint_2:
@@ -21,7 +21,7 @@ joint_limits: # degrees
     min_position: -0.6911504 # -39.6
     max_position: 1.57079632679 # 90.0
     has_velocity_limits: true
-    max_velocity: 1.57
+    max_velocity: 2.36
     has_acceleration_limits: true
     max_acceleration: 1.57
   joint_3:
@@ -29,7 +29,7 @@ joint_limits: # degrees
     min_position: -1.745329 # -100.0
     max_position: 1.396263 # 80.0
     has_velocity_limits: true
-    max_velocity: 1.57
+    max_velocity: 2.36
     has_acceleration_limits: true
     max_acceleration: 1.57
   joint_4:
@@ -37,7 +37,7 @@ joint_limits: # degrees
     min_position: -1.22173 # -70.0
     max_position: 2.8710666 # 164.5
     has_velocity_limits: true
-    max_velocity: 1.57
+    max_velocity: 2.36
     has_acceleration_limits: true
     max_acceleration: 1.57
   joint_5:
@@ -45,7 +45,7 @@ joint_limits: # degrees
     min_position: -1.5707963 # -90.0
     max_position: 1.65806276 # 95.0
     has_velocity_limits: true
-    max_velocity: 1.57
+    max_velocity: 2.36
     has_acceleration_limits: true
     max_acceleration: 1.57
   joint_6:
@@ -53,6 +53,6 @@ joint_limits: # degrees
     min_position: -2.583087 # -148.0
     max_position: 2.583087 # 148.0
     has_velocity_limits: true
-    max_velocity: 1.57
+    max_velocity: 2.36
     has_acceleration_limits: true
     max_acceleration: 1.57
