@@ -1,7 +1,13 @@
 <launch>
-    <arg name="moveit_controller_manager" default="moveit_simple_controller_manager/MoveItSimpleControllerManager" />
 
-    <param name="moveit_controller_manager" value="$(arg moveit_controller_manager)" />
+  <!-- execute the trajectory in 'interpolate' mode or jump to goal position in 'last point' mode -->
+  <arg name="fake_execution_type" default="interpolate" />
 
-    <rosparam file="$(find ar3_moveit_config)/config/controllers.yaml" />
+  <arg name="moveit_controller_manager" default="moveit_simple_controller_manager/MoveItSimpleControllerManager" />
+  <!-- Set the param that trajectory_execution_manager needs to find the controller plugin -->
+  <param name="moveit_controller_manager" value="$(arg moveit_controller_manager)"/>
+
+  <!-- The rest of the params are specific to this plugin -->
+  <rosparam subst_value="true" file="$(find ar3_moveit_config)/config/controllers.yaml"/>
+
 </launch>
